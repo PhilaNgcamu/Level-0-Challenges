@@ -1,7 +1,11 @@
 function findCommonLetters(str1, str2) {
-    let absolute = str2;
-    absolute.indexOf(str1);
-    return "Common letters: " + str1;
+    for(let i=0;i<str1.length;i++) {
+        for(let j=0; j<str2.length;j++) {
+            if(str1[i]==str2[j]) {
+                console.log(str1[i])
+            }
+        }
+    }
 }
 
-console.log(findCommonLetters("ou", "house"))
+findCommonLetters("computers", "house")

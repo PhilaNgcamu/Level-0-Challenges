@@ -1,8 +1,8 @@
 function evenOrOdd(n) {
     if (n % 2) {
-        console.log("even");
-    } else
         console.log("odd");
+    } else
+        console.log("even");
 }
 
-evenOrOdd(0);
+evenOrOdd(5);

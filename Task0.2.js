@@ -1,11 +1,11 @@
-var numbersX = 1 + 1 * 2;
-var numbersY = (1 + 1) * 2;
-var numbersZ = 1 + ( 1 * 2 );
-var numbersA = 1 + 1 * 2 / 2;
-var numbersB = (1 + 1 * 2) / 2;
+var x = 1 + 1 * 2;
+var y = (1 + 1) * 2;
+var z = 1 + ( 1 * 2 );
+var a = 1 + 1 * 2 / 2;
+var b = (1 + 1 * 2) / 2;
 
-console.log(numbersX);
-console.log(numbersY);
-console.log(numbersZ);
-console.log(numbersA);
-console.log(numbersB);
+console.log(x);
+console.log(y);
+console.log(z);
+console.log(a);
+console.log(b);

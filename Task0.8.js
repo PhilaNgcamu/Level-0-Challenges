@@ -3,10 +3,12 @@ function convertToHoursAndMinutes(number) {
     var minutes = number%60; 
     if(number == 60) {
         console.log(hours + " hour, " + minutes + " minutes")
+    } else if (minutes==1) {
+        console.log(hours + " hour, " + minutes + " minute")
     } else {
         console.log(hours + " hours, " + minutes + " minutes")
     }
 }   
     
 
-convertToHoursAndMinutes(60)
+convertToHoursAndMinutes(61)

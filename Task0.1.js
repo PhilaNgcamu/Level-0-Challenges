@@ -1,9 +1,9 @@
-var number0 = 0;
-var number1 = 1;
-console.log(number0);
-console.log(number1);
+var x = 0;
+var y = 1;
+console.log(x);
+console.log(y);
 
-number0 = number0 + 3;
-number1 = number1 + number0;
-console.log(number0);
-console.log(number1);
+x = y + 3;
+y = y + x;
+console.log(x);
+console.log(y);

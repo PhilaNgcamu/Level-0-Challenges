@@ -1,14 +1,15 @@
 function convertToHoursAndMinutes(number) {
-    var hours = Math.floor(number/60);
+     var hours = Math.floor(number/60);
     var minutes = number%60; 
-    if(number == 60) {
-        console.log(hours + " hour, " + minutes + " minutes")
-    } else if (minutes==1) {
+    if(hours == 1 && minutes == 1) {
         console.log(hours + " hour, " + minutes + " minute")
-    } else {
+    } else if(hours == 1 && minutes > 1) {
+      console.log(hours + " hour, " + minutes + " minutes")
+    } else if(hours > 1 && minutes == 1) {
+      console.log(hours + " hours, " + minutes + " minute")
+    }
+    else {
         console.log(hours + " hours, " + minutes + " minutes")
     }
-}   
-    
-
-convertToHoursAndMinutes(61)
+  }   
+convertToHoursAndMinutes(122)

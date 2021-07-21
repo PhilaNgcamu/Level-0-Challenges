@@ -1,10 +1,14 @@
-function findVowels(s){
-    for(let i=0;i<s.length;i++) { 
-        if (s.indexOf(s.charAt(i)) == s.lastIndexOf(s.charAt(i))){  
-          if(s[i]=="a"|| s[i]=="e" || s[i]=="i" || s[i]=="o" || s[i] =="u") {
-            console.log("Vowel: " + s[i].toLowerCase())
+function findVowels(str) {
+    var strArr = [...str].sort();
+    var repeatedChars = [];
+    for (let i = 0; i < strArr.length; i++) {
+        if (strArr[i] === strArr[i + 1] || strArr[i]) {
+            if(strArr[i]=="a"|| strArr[i]=="e" || strArr[i]=="i" || strArr[i]=="o" || strArr[i]=="u" ||
+             strArr[i]=="A"|| strArr[i]=="E" || strArr[i]=="I" || strArr[i]=="O" || strArr[i]=="U") {
+                repeatedChars.push(strArr[i].toLowerCase());
         }
-      }
-    }  
-  } 
-  findVowels("Uuumuzi")
+    }
+  }
+  return "Vowels: " + [...new Set(repeatedChars)].toString();
+} 
+console.log(findVowels("Umuzi"));

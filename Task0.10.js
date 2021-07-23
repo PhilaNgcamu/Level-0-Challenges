@@ -7,6 +7,6 @@ function findCommonLetters(str1, str2) {
       }
     }
       }
-    return a
+      return "Common letters: " + [...new Set(a)]
     }
-console.log(findCommonLetters("comyputers", "hyouse"))
+console.log(findCommonLetters("comyputeeeers", "hyouse"))

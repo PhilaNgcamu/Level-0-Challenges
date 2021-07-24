@@ -7,5 +7,5 @@ function convertFahrenheitToCelsius(fahreinheit) {
     return celsiusNumber; 
 }
 
-convertCelsiusToFahrenheit(0);
-convertFahrenheitToCelsius(77);
+console.log(convertCelsiusToFahrenheit(0))
+console.log(convertFahrenheitToCelsius(77))

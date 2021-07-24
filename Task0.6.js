@@ -8,4 +8,4 @@ function findTheMaxNumber(number1, number2, number3) {
     } 
 }
 
-findTheMaxNumber(34, 62535, 7);
+console.log(findTheMaxNumber(34, 6255, 7))

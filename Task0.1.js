@@ -3,7 +3,7 @@ var y = 1;
 console.log(x);
 console.log(y);
 
-x = y + 3;
+x = x + 3;
 y = y + x;
 console.log(x);
 console.log(y);
